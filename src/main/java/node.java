@@ -16,6 +16,12 @@ public class node {
         this.next = null;
     }
 
+    node() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+   
+
     public node getNext() {
         return next;
     }

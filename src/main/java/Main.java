@@ -14,9 +14,30 @@ public class Main {
     
 
     public static void main(String[] args) {
+        //recursividad----------------------
+      //  System.out.println(recursion.factorial(5));
+       //   System.out.println(recursion.buscarElmento(arr,0,5,arr.length-1));
+       
+       
+        //---------------pilas -----------------------------
+        //*stack pila = new stack();
+        //System.out.println(pila.getLengt());
+       // pila.push(1);
+        //System.out.println(pila.getLengt());
+       // pila.push(7);
+       // pila.push(909090);
+       // System.out.println(pila.getLengt());
+        //pila.pop();
+       // System.out.println(pila.getLengt());
+        //-----------------------colas-----------------------
         
-        System.out.println(recursion.factorial(5));
-          System.out.println(recursion.buscarElmento(arr,0,5,arr.length-1));
+        queue cola1 = new queue();
+        cola1.insertar(46);
+        cola1.insertar(12);
+        cola1.insertar(87);
+        cola1.insertar(125);
+        cola1.insertar(12);
+        
     }
     
 }
