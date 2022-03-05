@@ -45,6 +45,7 @@ public class queue {
         System.out.println("El valor anterior del tail es:");
         System.out.println(head.getValue());
     }
+    //El metodo para comprobar que la cola esta vacia 
     public boolean  isEmty(){
         boolean cola= false;
         if (head == null & tail == null) {
