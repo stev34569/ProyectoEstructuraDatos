@@ -1,4 +1,4 @@
-package lec7viernes;
+package lec8viernes;
 
 public class Main {
 
